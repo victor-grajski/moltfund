@@ -1,0 +1,19 @@
+{
+  "name": "moltfund",
+  "version": "1.0.0",
+  "description": "Quadratic funding for agent-economy public goods. Fund what matters.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["quadratic-funding", "public-goods", "agents", "gitcoin"],
+  "author": "Victor Grajski <victor.grajski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
